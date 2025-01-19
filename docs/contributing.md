@@ -215,7 +215,7 @@ mypy .
 
 * GitHub: [github.com/LoSkroefie/omnistack](https://github.com/LoSkroefie/omnistack)
 * Website: [jvrsoftware.co.za](https://jvrsoftware.co.za)
-* Email: jvrsoftware@gmail.com or jan@jvrsoftware.co.za
+* Email: jan@jvrsoftware.co.za, jvrsoftware@gmail.co.za
 
 ## Recognition
 
@@ -224,7 +224,7 @@ Contributors will be added to our [Contributors](../CONTRIBUTORS.md) list.
 ## Questions?
 
 * Website: [jvrsoftware.co.za](https://jvrsoftware.co.za)
-* Email: jvrsoftware@gmail.com or jan@jvrsoftware.co.za
+* Email: jan@jvrsoftware.co.za, jvrsoftware@gmail.co.za
 
 ## License
 

@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 license = "MIT"
 authors = [
-    { name = "JVR Software", email = "jvrsoftware@gmail.com" },
+    { name = "JVR Software", email = "jan@jvrsoftware.co.za" },
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",

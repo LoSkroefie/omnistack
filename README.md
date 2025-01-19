@@ -129,7 +129,7 @@ OmniStack is MIT licensed. See [LICENSE](LICENSE) for details.
 ## Contact
 
 - Website: [jvrsoftware.co.za](https://jvrsoftware.co.za)
-- Email: jvrsoftware@gmail.com or jan@jvrsoftware.co.za
+- Email: jan@jvrsoftware.co.za, jvrsoftware@gmail.co.za
 
 ---
 Made with ❤️ by JVR Software
