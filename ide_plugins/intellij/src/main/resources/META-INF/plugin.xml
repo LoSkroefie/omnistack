@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+    <id>com.omnistack.plugin</id>
+    <name>OmniStack AI</name>
+    <vendor email="support@omnistack.ai" url="https://omnistack.ai">OmniStack</vendor>
+    
+    <description><![CDATA[
+        OmniStack AI is an intelligent development assistant that provides:
+        <ul>
+            <li>Context-aware code analysis</li>
+            <li>Predictive debugging</li>
+            <li>Code optimization suggestions</li>
+            <li>Smart code completion</li>
+        </ul>
+    ]]></description>
+    
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="OmniStack AI"
+                   secondary="true"
+                   icon="AllIcons.General.Modified"
+                   anchor="right"
+                   factoryClass="com.omnistack.plugin.OmniStackToolWindowFactory"/>
+                   
+        <applicationService serviceImplementation="com.omnistack.plugin.OmniStackSettings"/>
+        <projectService serviceImplementation="com.omnistack.plugin.OmniStackProjectService"/>
+        
+        <completion.contributor language="JAVA"
+                              implementationClass="com.omnistack.plugin.OmniStackCompletionContributor"/>
+                              
+        <inspectionToolProvider implementation="com.omnistack.plugin.OmniStackInspectionProvider"/>
+    </extensions>
+    
+    <actions>
+        <action id="OmniStack.AnalyzeCode"
+                class="com.omnistack.plugin.OmniStackPlugin"
+                text="Analyze with OmniStack AI"
+                description="Analyze code using OmniStack AI">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift A"/>
+        </action>
+    </actions>
+</idea-plugin>

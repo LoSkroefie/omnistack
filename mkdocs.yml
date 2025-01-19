@@ -1,0 +1,102 @@
+site_name: OmniStack AI Framework
+site_description: AI-powered software development framework
+site_author: LoSkroefie
+repo_url: https://github.com/LoSkroefie/omnistack
+
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: deep purple
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: installation.md
+    - Quick Start: quickstart.md
+  - User Guide:
+    - Overview: overview.md
+    - Configuration: configuration.md
+    - Authentication: authentication.md
+    - AI Features: ai-features.md
+    - Monitoring: monitoring.md
+  - API Reference:
+    - REST API: api.md
+    - Python SDK: python-sdk.md
+  - Deployment:
+    - Docker: deployment.md
+    - Kubernetes: kubernetes.md
+    - Cloud Platforms: cloud.md
+  - Development:
+    - Contributing: contributing.md
+    - Development Guide: development.md
+    - Architecture: architecture.md
+  - About:
+    - License: license.md
+    - Security: security.md
+    - Changelog: changelog.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_source: true
+            show_if_no_docstring: true
+      watch:
+        - omnistack
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/LoSkroefie
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/LoSkroefie
+
+copyright: Copyright &copy; 2025 LoSkroefie
