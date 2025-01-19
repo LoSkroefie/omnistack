@@ -15,7 +15,8 @@ We take the security of OmniStack seriously. If you believe you have found a sec
 
 Please **DO NOT** file a public issue; instead, send your report privately to:
 
-- Email: security@loskroefie.com
+- Primary Email: jvrsoftware@gmail.com
+- Secondary Email: jan@jvrsoftware.co.za
 - Subject: [SECURITY] Security Vulnerability Report
 
 Your report should include:
@@ -77,7 +78,8 @@ We kindly ask you to:
 ## Security Contacts
 
 - Primary: [@LoSkroefie](https://github.com/LoSkroefie)
-- Email: security@loskroefie.com
+- Email: jvrsoftware@gmail.com
+- Website: [jvrsoftware.co.za](https://jvrsoftware.co.za)
 
 ## Attribution
 

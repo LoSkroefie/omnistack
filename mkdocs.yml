@@ -1,7 +1,8 @@
 site_name: OmniStack AI Framework
 site_description: AI-powered software development framework
-site_author: LoSkroefie
-repo_url: https://github.com/LoSkroefie/omnistack
+site_author: JVR Software
+site_url: https://jvrsoftware.co.za
+repo_url: https://github.com/jvrsoftware/omnistack
 
 theme:
   name: material
@@ -95,8 +96,10 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/LoSkroefie
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/LoSkroefie
+      link: https://github.com/jvrsoftware/omnistack
+    - icon: fontawesome/solid/globe
+      link: https://jvrsoftware.co.za
+    - icon: fontawesome/solid/envelope
+      link: mailto:jvrsoftware@gmail.com
 
-copyright: Copyright &copy; 2025 LoSkroefie
+copyright: Copyright &copy; 2025 JVR Software

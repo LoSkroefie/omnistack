@@ -111,13 +111,11 @@ pytest --cov=omnistack tests/
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](docs/contributing.md) for details.
+Please read our [Contributing Guide](docs/contributing.md) for details on our code of conduct and development process.
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+## Issues and Feature Requests
+
+Please file issues and feature requests on our [GitHub Issues](https://github.com/jvrsoftware/omnistack/issues) page.
 
 ## License
 
@@ -130,9 +128,8 @@ OmniStack is MIT licensed. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-- Website: [https://jvrsoftware.com](https://jvrsoftware.com)
-- GitHub: [@jvrsoftware](https://github.com/jvrsoftware)
-- Email: contact@jvrsoftware.com
+- Website: [jvrsoftware.co.za](https://jvrsoftware.co.za)
+- Email: jvrsoftware@gmail.com or jan@jvrsoftware.co.za
 
 ---
 Made with ❤️ by JVR Software

@@ -148,14 +148,14 @@ def process_data(
 
 ## Development Process
 
-1. Fork the repository
+1. Fork the repository from [github.com/jvrsoftware/omnistack](https://github.com/jvrsoftware/omnistack)
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Make changes following our guidelines
 4. Run tests and ensure they pass
 5. Update documentation if needed
 6. Commit your changes (`git commit -m 'feat: add amazing feature'`)
 7. Push to the branch (`git push origin feature/amazing-feature`)
-8. Open a Pull Request
+8. Open a Pull Request to the `main` branch
 
 ### Setting Up Development Environment
 
@@ -213,9 +213,9 @@ mypy .
 
 ## Community
 
-* Join our [Discord server](https://discord.gg/jvrsoftware)
-* Follow us on [Twitter](https://twitter.com/jvrsoftware)
-* Read our [blog](https://blog.jvrsoftware.com)
+* GitHub: [github.com/jvrsoftware/omnistack](https://github.com/jvrsoftware/omnistack)
+* Website: [jvrsoftware.co.za](https://jvrsoftware.co.za)
+* Email: jvrsoftware@gmail.com or jan@jvrsoftware.co.za
 
 ## Recognition
 
@@ -223,8 +223,8 @@ Contributors will be added to our [Contributors](../CONTRIBUTORS.md) list.
 
 ## Questions?
 
-* Ask in our [Discord server](https://discord.gg/jvrsoftware)
-* Email us at contributors@jvrsoftware.com
+* Website: [jvrsoftware.co.za](https://jvrsoftware.co.za)
+* Email: jvrsoftware@gmail.com or jan@jvrsoftware.co.za
 
 ## License
 

@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 license = "MIT"
 authors = [
-    { name = "LoSkroefie", email = "contact@loskroefie.com" },
+    { name = "JVR Software", email = "jvrsoftware@gmail.com" },
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -50,10 +50,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/LoSkroefie/omnistack"
-Documentation = "https://loskroefie.github.io/omnistack"
-Repository = "https://github.com/LoSkroefie/omnistack.git"
-Issues = "https://github.com/LoSkroefie/omnistack/issues"
+Homepage = "https://jvrsoftware.co.za"
+Documentation = "https://github.com/jvrsoftware/omnistack"
+Repository = "https://github.com/jvrsoftware/omnistack.git"
+Issues = "https://github.com/jvrsoftware/omnistack/issues"
 
 [tool.black]
 line-length = 88

@@ -55,8 +55,8 @@ jobs:
         context: .
         push: true
         tags: |
-          loskroefie/omnistack:latest
-          loskroefie/omnistack:${{ github.event.release.tag_name }}
+          jvrsoftware/omnistack:latest
+          jvrsoftware/omnistack:${{ github.event.release.tag_name }}
         platforms: linux/amd64,linux/arm64
 
   docs:
