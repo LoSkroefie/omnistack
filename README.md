@@ -43,7 +43,7 @@ OmniStack is a cutting-edge AI framework that enhances software development thro
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/jvrsoftware/omnistack.git
+git clone https://github.com/LoSkroefie/omnistack.git
 cd omnistack
 ```
 
@@ -115,7 +115,7 @@ Please read our [Contributing Guide](docs/contributing.md) for details on our co
 
 ## Issues and Feature Requests
 
-Please file issues and feature requests on our [GitHub Issues](https://github.com/jvrsoftware/omnistack/issues) page.
+Please file issues and feature requests on our [GitHub Issues](https://github.com/LoSkroefie/omnistack/issues) page.
 
 ## License
 

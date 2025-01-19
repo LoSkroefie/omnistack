@@ -148,7 +148,7 @@ def process_data(
 
 ## Development Process
 
-1. Fork the repository from [github.com/jvrsoftware/omnistack](https://github.com/jvrsoftware/omnistack)
+1. Fork the repository from [github.com/LoSkroefie/omnistack](https://github.com/LoSkroefie/omnistack)
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Make changes following our guidelines
 4. Run tests and ensure they pass
@@ -213,7 +213,7 @@ mypy .
 
 ## Community
 
-* GitHub: [github.com/jvrsoftware/omnistack](https://github.com/jvrsoftware/omnistack)
+* GitHub: [github.com/LoSkroefie/omnistack](https://github.com/LoSkroefie/omnistack)
 * Website: [jvrsoftware.co.za](https://jvrsoftware.co.za)
 * Email: jvrsoftware@gmail.com or jan@jvrsoftware.co.za
 

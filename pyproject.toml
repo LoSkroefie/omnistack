@@ -51,9 +51,9 @@ dev = [
 
 [project.urls]
 Homepage = "https://jvrsoftware.co.za"
-Documentation = "https://github.com/jvrsoftware/omnistack"
-Repository = "https://github.com/jvrsoftware/omnistack.git"
-Issues = "https://github.com/jvrsoftware/omnistack/issues"
+Documentation = "https://github.com/LoSkroefie/omnistack"
+Repository = "https://github.com/LoSkroefie/omnistack.git"
+Issues = "https://github.com/LoSkroefie/omnistack/issues"
 
 [tool.black]
 line-length = 88
